@@ -1,0 +1,20 @@
+{
+  "environment": "development",
+  "host": "http://localhost:3000/",
+  "adminHost": "http://localhost:3000/admin",
+  "server": {
+    "port": 3000
+  },
+  "db": {
+    "password": "",
+    "username": "postgres",
+    "database": "quickstart_dev",
+    "config": {
+      "host": "localhost",
+      "dialect": "postgres",
+      "maxConcurrentQueries": 100,
+      "pool": {"maxConnections": 20, "maxIdleTime": 30},
+      "native": true
+    }
+  }
+}

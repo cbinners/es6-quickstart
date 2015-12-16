@@ -1,0 +1,19 @@
+{
+  "environment": "test",
+  "host": "http://localhost:3000/",
+  "server": {
+    "port": 3000
+  },
+  "db": {
+    "password": "",
+    "username": "postgres",
+    "database": "quickstart_test",
+    "config": {
+      "host": "localhost",
+      "dialect": "postgres",
+      "maxConcurrentQueries": 100,
+      "pool": {"maxConnections": 20, "maxIdleTime": 30},
+      "native": true
+    }
+  }
+}

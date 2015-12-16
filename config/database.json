@@ -1,0 +1,22 @@
+{
+  "development": {
+    "host": "localhost",
+    "dialect": "postgres",
+    "maxConcurrentQueries": 100,
+    "pool": {"maxConnections": 20, "maxIdleTime": 30},
+    "native": true,
+    "password": "",
+    "username": "postgres",
+    "database": "quickstart_test"
+  },
+  "test": {
+    "host": "localhost",
+    "dialect": "postgres",
+    "maxConcurrentQueries": 100,
+    "pool": {"maxConnections": 20, "maxIdleTime": 30},
+    "native": true,
+    "password": "",
+    "username": "postgres",
+    "database": "quickstart_test"
+  }
+}
